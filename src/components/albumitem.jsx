@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom'
 
 
 
-const albumitem = ({image,name,desc,id}) => {
+const AlbumItem = ({image,name,desc,id}) => {
 
   const navigate = useNavigate()
 
@@ -16,4 +16,4 @@ const albumitem = ({image,name,desc,id}) => {
   )
 }
 
-export default albumitem
+export default AlbumItem
