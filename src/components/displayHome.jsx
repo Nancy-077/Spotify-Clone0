@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from './navbar'
 import { albumsData} from '../assets/assets'
-import AlbumItem from './albumItem'
+import AlbumItem from './AlbumItemTemp'
+
 import {songsData} from '../assets/assets'
 import SongItem from './SongItem'
 
