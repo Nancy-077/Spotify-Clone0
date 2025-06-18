@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import {assets, } from '../assets/assets'
 import { PlayerContext } from '../contact/PlayerContext'
 
-const player = () => {
+const Player = () => {
    const {track,seekbar,seekbg,playStatus,play,pause,time,Previous,next,seekSong} = useContext(PlayerContext)
 
 
@@ -54,4 +54,4 @@ const player = () => {
   )
 }
 
-export default player
+export default Player

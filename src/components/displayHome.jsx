@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from './navbar'
+import Navbar from './Navbar'
 import { albumsData} from '../assets/assets'
 import AlbumItem from './AlbumItem'
 import {songsData} from '../assets/assets'
-import SongItem from './songItem'
+import SongItem from './SongItem'
 
 
 const displayHome = () => {
   return (
-   <>
+   <div>
    <Navbar/>
 
   <div className='mb-4'>
@@ -28,7 +28,7 @@ const displayHome = () => {
 
   
 
-   </>
+   </div>
   )
 }
 
