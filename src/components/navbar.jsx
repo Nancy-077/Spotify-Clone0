@@ -2,7 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
 
-const Navbar = () => {
+const navbar = () => {
 
  const navigate= useNavigate()
 
@@ -35,4 +35,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default navbar
